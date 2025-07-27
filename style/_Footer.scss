@@ -1,121 +1,100 @@
-.Footer{
-    width: 100%;
-    height: 731px;
-
-  .footer-contants{
-    display: flex;
-    justify-content: space-around;
-  }
+.Footer {
+  width: 100%;
+  height: 731px;
 }
-.social{
-    margin-top: 80px;
 
-    .social-items{
-        display: flex;
-        justify-content: space-around;
-        margin-top: 32px;
-    }
+.Footer .footer-contants {
+  display: flex;
+  justify-content: space-around;
+}
 
-   .fa {
-    width: 48px;
+.social {
+  margin-top: 80px;
+}
+
+.social .social-items {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 32px;
+}
+
+.social .fa {
+  width: 48px;
   height: 48px;
   display: inline-block;
+  padding: 0;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  border-radius: 20px;
-}
-    h1{
-        font-size: 55px;
-    }
-    
-    .fa-facebook {
-    background-image: url(../img/icons8-facebook-48.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   border-radius: 20px;
   color: white;
-  border: 1px solid red;
-        &:hover{
-            background-color: rgb(34, 33, 33);
-            opacity: 0.5;
-        }
-
-}
-     .fa-google {
-   background-image: url(../img/icons8-gmail-logo-94.png);
-    background-size: cover;
-    border-radius: 20px;
-    color: white;
-        &:hover{
-            background-color:rgb(34, 33, 33);
-            opacity: 0.5;
-        }
-    }
-    .fa-youtube {
-    background-image: url(../img/icons8-youtube-48.png);
-    background-size: cover;
-    border-radius: 20px;
-    color: white;
-        &:hover{
-            background-color: rgb(34, 33, 33);
-            opacity: 0.5;
-        }
-    }
-    .fa-instagram {
-    background-image: url(../img/icons8-instagram-48.png);
-    background-size: cover;
-    border-radius: 20px;
-    color: white;
-        &:hover{
-            background-color:rgb(34, 33, 33);
-            opacity: 0.5;
-        }
-    }
-
-        
+  border: 1px solid red; /* для визуальной проверки */
+  margin: 0 10px; /* небольшой отступ между иконками */
 }
 
-.footer-contants{
-   
-    .send-form{
-        width: 526px;
-        height: 491px;
-        padding: 20px;
-        border-radius: 10px;
-        margin-top: 120px;
-        background-color: black;
-        display: flex;
-        flex-direction: column;
-
-        p{
-                margin-top: 40px;
-            }
-
-       input {
-            width: 100%;
-            height: 82px;
-            padding: 10px;
-            background-color: #2b2a2c;
-            border: none;
-            
-        }
-    }
-    .Send-btn{
-         width: 100%;
-         height: 82px;
-         margin-top: 40px;
-         background-color: #5221E6;
-         color: white;
-         img{
-            width: 20px;
-            height: 20px;
-            margin-left: 8px;
-         }
-    }
+.social .fa-facebook {
+  background-image: url(../img/icons8-facebook-48.png);
 }
- .Send-btn:hover{
-    background-color: #5221E6;
-    opacity: 0.5;
- }
+
+.social .fa-google {
+  background-image: url(../img/icons8-gmail-logo-94.png);
+}
+
+.social .fa-youtube {
+  background-image: url(../img/icons8-youtube-48.png);
+}
+
+.social .fa-instagram {
+  background-image: url(../img/icons8-instagram-48.png);
+}
+
+.social .fa:hover {
+  background-color: rgb(34, 33, 33);
+  opacity: 0.5;
+}
+
+/* Остальной твой CSS для формы */
+.Footer .footer-contants .send-form {
+  width: 526px;
+  height: 491px;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 120px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.Footer .footer-contants .send-form p {
+  margin-top: 40px;
+}
+
+.Footer .footer-contants .send-form input {
+  width: 100%;
+  height: 82px;
+  padding: 10px;
+  background-color: #2b2a2c;
+  border: none;
+}
+
+.Footer .footer-contants .Send-btn {
+  width: 100%;
+  height: 82px;
+  margin-top: 40px;
+  background-color: #5221E6;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Footer .footer-contants .Send-btn img {
+  width: 20px;
+  height: 20px;
+  margin-left: 8px;
+}
+
+.Footer .footer-contants .Send-btn:hover {
+  opacity: 0.5;
+}

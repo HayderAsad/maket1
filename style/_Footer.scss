@@ -20,17 +20,17 @@
     width: 24px;
     height: 24px;
     padding: 20px;
-       border: 1px solid red;
 }
     h1{
         font-size: 55px;
     }
     
     .fa-facebook {
-     background-image: url(./img/icons8-facebook-48.png));
-    background-size: cover;
-    border-radius: 20px;
-    color: white;
+     background-image: url(../img/icons8-facebook-48.png);
+     background-size: cover;
+     border-radius: 20px;
+     color: white;
+       border: 1px solid red;
         &:hover{
             background-color: rgb(34, 33, 33);
             opacity: 0.5;
@@ -38,7 +38,7 @@
 
 }
      .fa-google {
-   background-image: url(./img/icons8-gmail-logo-94.png);
+   background-image: url(../img/icons8-gmail-logo-94.png);
     background-size: cover;
     border-radius: 20px;
     color: white;
@@ -48,7 +48,7 @@
         }
     }
     .fa-youtube {
-    background-image: url(./img/icons8-youtube-48.png);
+    background-image: url(../img/icons8-youtube-48.png);
     background-size: cover;
     border-radius: 20px;
     color: white;
@@ -58,7 +58,7 @@
         }
     }
     .fa-instagram {
-    background-image: url(./img/icons8-instagram-48.png);
+    background-image: url(../img/icons8-instagram-48.png);
     background-size: cover;
     border-radius: 20px;
     color: white;
